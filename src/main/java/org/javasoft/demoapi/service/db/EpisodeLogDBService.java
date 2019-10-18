@@ -10,6 +10,7 @@ import org.javasoft.demoapi.repository.EpisodeLogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.javasoft.demoapi.exception.ErrorMsg.INTERNAL_ERROR_TYPE;
@@ -33,7 +34,15 @@ public class EpisodeLogDBService {
         if(optionalEpisodeLogEntity.isPresent()){
             val episodeLogEntity = optionalEpisodeLogEntity.get();
             val commentLogEntity = new CommentLogEntity();
-
+            commentLogEntity.setComment(comment);
+            commentLogEntity.setIpAddress(ipAddress);
+            List commentLogEntityList = episodeLogEntity.getCommentLogEntityList();
+            if(commentLogEntityList == null){
+                commentLogEntityList = new ArrayList<>();
+            }
+            commentLogEntityList.add(commentLogEntity);
+            episodeLogEntity.setCommentLogEntityList(commentLogEntityList);
+            episodeLogRepository.save(episodeLogEntity);
         }else {
             throw new DemoAPIException(INTERNAL_ERROR_TYPE ,"Episode Id {" + episodeId + " } not found");
         }

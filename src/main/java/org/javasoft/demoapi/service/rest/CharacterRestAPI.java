@@ -21,6 +21,6 @@ public class CharacterRestAPI {
 
     public CharacterResponseListDTO retrieveCharacters(){
         val characterResponseListDTO = new CharacterResponseListDTO();
-        return restTemplateBean.getRequestObject("character/?page=3" ,characterResponseListDTO);
+        return restTemplateBean.getRequestObject("character" ,characterResponseListDTO);
     }
 }
