@@ -3,6 +3,7 @@ server:
   servlet:
     context-path: /demo-api
 
+
 logging:
   level:
     org:
