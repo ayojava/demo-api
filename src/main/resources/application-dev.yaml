@@ -1,0 +1,32 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo-api
+
+logging:
+  level:
+    org:
+      springframework:
+        web : INFO
+      hibernate: INFO
+
+spring:
+  application:
+    name: demo-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/drsdb
+    username: drs_admin
+    password: DRSdb@123#
+    driverClassName: org.postgresql.Driver
+
+  jpa:
+    hibernate.ddl-auto: update
+    properties:
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate.format_sql: true
+      hibernate.show_sql : true
+      hibernate.jdbc.lob.non_contextual_creation: true
+      #hibernate.temp.use_jdbc_metadata_defaults: false
+    hibernate.naming:
+      implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+      physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
