@@ -47,4 +47,8 @@ public class EpisodeLogDBService {
             throw new DemoAPIException(INTERNAL_ERROR_TYPE ,"Episode Id {" + episodeId + " } not found");
         }
     }
+
+    public List<EpisodeLogEntity> findAllEpisodes(){
+        return episodeLogRepository.findAllByOrderByAirDateAsc();
+    }
 }

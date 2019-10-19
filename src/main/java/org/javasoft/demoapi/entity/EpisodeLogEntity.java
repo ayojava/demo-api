@@ -25,6 +25,6 @@ public class EpisodeLogEntity extends AbstractPersistable<Long>{
 
     private int characterCount;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<CommentLogEntity> commentLogEntityList;
 }

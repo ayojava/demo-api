@@ -8,6 +8,7 @@ org/javasoft/demoapi/payload/endpoint/character/UtilResponse.class
 org/javasoft/demoapi/repository/CharacterLogRepository.class
 org/javasoft/demoapi/config/BeanConfig.class
 org/javasoft/demoapi/entity/EpisodeLogEntity.class
+org/javasoft/demoapi/payload/client/comment/CommentResponse.class
 org/javasoft/demoapi/service/rest/CharacterRestAPI.class
 org/javasoft/demoapi/entity/CommentLogEntity.class
 org/javasoft/demoapi/payload/endpoint/character/CharacterResponseListDTO.class
@@ -16,6 +17,7 @@ org/javasoft/demoapi/service/util/CharacterUtilService.class
 org/javasoft/demoapi/bean/RestTemplateBean.class
 org/javasoft/demoapi/payload/endpoint/character/CharacterResponseDTO.class
 org/javasoft/demoapi/payload/endpoint/episode/EpisodeResponseListDTO.class
+org/javasoft/demoapi/payload/client/episode/EpisodeResponse.class
 org/javasoft/demoapi/mapper/CharacterMapper.class
 org/javasoft/demoapi/payload/client/character/CharacterResponse.class
 org/javasoft/demoapi/facade/CharacterLogFacade.class
@@ -29,6 +31,7 @@ org/javasoft/demoapi/DemoApiApplication.class
 org/javasoft/demoapi/config/SwaggerConfig.class
 org/javasoft/demoapi/entity/CharacterLogEntity.class
 org/javasoft/demoapi/controller/DemoController.class
+org/javasoft/demoapi/facade/EpisodeLogFacade.class
 org/javasoft/demoapi/controller/DbController.class
 org/javasoft/demoapi/service/db/EpisodeLogDBService.class
 org/javasoft/demoapi/payload/endpoint/InfoResponse.class
