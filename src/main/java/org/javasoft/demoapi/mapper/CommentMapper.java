@@ -16,7 +16,7 @@ public class CommentMapper {
     public Function<CommentLogEntity , CommentResponse> mapCommentResponse = commentLogEntity -> {
         val commentResponse = new CommentResponse();
         commentResponse.setComment(commentLogEntity.getComment());
-        commentResponse.setCommentDate(DateFormatUtils.format(commentLogEntity.getCreateTime(),"DD-MM-yyyy"));
+        commentResponse.setCommentDate(DateFormatUtils.format(commentLogEntity.getCreateTime(),"dd-MM-yyyy"));
         commentResponse.setIpAddress(commentLogEntity.getIpAddress());
         return commentResponse;
     };

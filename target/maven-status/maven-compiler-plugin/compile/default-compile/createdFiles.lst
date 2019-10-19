@@ -1,5 +1,6 @@
 org/javasoft/demoapi/exception/GenericException.class
 org/javasoft/demoapi/exception/DemoAPIException.class
+org/javasoft/demoapi/repository/CommentLogRepository.class
 org/javasoft/demoapi/service/rest/EpisodeRestAPI.class
 org/javasoft/demoapi/payload/client/character/CharacterRequest.class
 org/javasoft/demoapi/service/util/EpisodeUtilService.class
@@ -9,6 +10,7 @@ org/javasoft/demoapi/repository/CharacterLogRepository.class
 org/javasoft/demoapi/config/BeanConfig.class
 org/javasoft/demoapi/entity/EpisodeLogEntity.class
 org/javasoft/demoapi/payload/client/comment/CommentResponse.class
+org/javasoft/demoapi/service/db/CommentLogDBService.class
 org/javasoft/demoapi/service/rest/CharacterRestAPI.class
 org/javasoft/demoapi/entity/CommentLogEntity.class
 org/javasoft/demoapi/payload/endpoint/character/CharacterResponseListDTO.class
@@ -29,11 +31,13 @@ org/javasoft/demoapi/api/RestAPI.class
 org/javasoft/demoapi/exception/ErrorDTO.class
 org/javasoft/demoapi/DemoApiApplication.class
 org/javasoft/demoapi/config/SwaggerConfig.class
+org/javasoft/demoapi/facade/CommentLogFacade.class
 org/javasoft/demoapi/entity/CharacterLogEntity.class
 org/javasoft/demoapi/controller/DemoController.class
 org/javasoft/demoapi/facade/EpisodeLogFacade.class
 org/javasoft/demoapi/controller/DbController.class
 org/javasoft/demoapi/service/db/EpisodeLogDBService.class
 org/javasoft/demoapi/payload/endpoint/InfoResponse.class
+org/javasoft/demoapi/mapper/CommentMapper.class
 org/javasoft/demoapi/payload/endpoint/episode/EpisodeResponseDTO.class
 org/javasoft/demoapi/mapper/EpisodeMapper.class

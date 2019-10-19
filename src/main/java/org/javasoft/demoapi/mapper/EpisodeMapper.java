@@ -36,7 +36,7 @@ public class EpisodeMapper {
         val episodeResponse = new EpisodeResponse();
         episodeResponse.setCharacterCount(episodeLogEntity.getCharacterCount());
         episodeResponse.setEpisodeCode(episodeLogEntity.getEpisodeCode());
-        episodeResponse.setEpisodeDate(DateFormatUtils.format(episodeLogEntity.getAirDate(),"DD-MM-yyyy"));
+        episodeResponse.setEpisodeDate(DateFormatUtils.format(episodeLogEntity.getAirDate(),"dd-MM-yyyy"));
         episodeResponse.setEpisodeId(episodeLogEntity.getEpisodeId());
         episodeResponse.setName(episodeLogEntity.getName());
         val commentResponseList = new ArrayList<CommentResponse>();
@@ -44,7 +44,7 @@ public class EpisodeMapper {
             commentLogEntity -> {
                 val commentResponse = new CommentResponse();
                 commentResponse.setComment(commentLogEntity.getComment());
-                commentResponse.setCommentDate(DateFormatUtils.format(commentLogEntity.getCreateTime(),"DD-MM-yyyy"));
+                commentResponse.setCommentDate(DateFormatUtils.format(commentLogEntity.getCreateTime(),"dd-MM-yyyy"));
                 commentResponse.setIpAddress(commentLogEntity.getIpAddress());
                 commentResponseList.add(commentResponse);
             }
