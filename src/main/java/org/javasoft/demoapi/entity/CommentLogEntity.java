@@ -10,7 +10,7 @@ import java.util.Date;
 
 @Data
 @Entity
-@Table(name = "CommentLog")
+@Table(name = "commentlog")
 public class CommentLogEntity extends AbstractPersistable<Long> {
 
     @NotBlank

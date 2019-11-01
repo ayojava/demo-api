@@ -1,4 +1,5 @@
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/exception/ErrorMsg.java
+/Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/repository/CommentLogRepository.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/config/SwaggerConfig.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/payload/endpoint/InfoResponse.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/api/RestAPI.java
@@ -10,6 +11,7 @@
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/payload/client/character/CharacterResponseList.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/service/util/CharacterUtilService.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/mapper/CharacterMapper.java
+/Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/payload/client/comment/CommentResponse.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/DemoApiApplication.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/payload/endpoint/character/CharacterResponseDTO.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/bean/RestTemplateBean.java
@@ -21,15 +23,21 @@
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/config/BeanConfig.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/repository/CharacterLogRepository.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/exception/ErrorDTO.java
+/Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/mapper/CommentMapper.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/payload/endpoint/character/CharacterResponseListDTO.java
+/Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/payload/client/episode/EpisodeResponse.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/payload/endpoint/episode/EpisodeResponseListDTO.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/entity/EpisodeLogEntity.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/mapper/EpisodeMapper.java
+/Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/payload/client/comment/CommentRequest.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/service/db/CharacterLogDBService.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/facade/CharacterLogFacade.java
+/Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/facade/EpisodeLogFacade.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/repository/EpisodeLogRepository.java
+/Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/service/db/CommentLogDBService.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/exception/DemoAPIException.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/api/ClientAPI.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/entity/CharacterLogEntity.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/service/util/EpisodeUtilService.java
 /Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/service/db/EpisodeLogDBService.java
+/Users/ayodejiilori/Documents/intellijProj/demo-api/src/main/java/org/javasoft/demoapi/facade/CommentLogFacade.java

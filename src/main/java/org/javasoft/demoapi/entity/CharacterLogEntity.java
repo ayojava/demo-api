@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 @Data
 @Entity
-@Table(name = "CharacterLog")
+@Table(name = "characterlog")
 public class CharacterLogEntity extends AbstractPersistable<Long> {
 
     private int characterId;

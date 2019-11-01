@@ -11,7 +11,7 @@ import java.util.List;
 
 @Data
 @Entity
-@Table(name = "EpisodeLog")
+@Table(name = "episodelog")
 public class EpisodeLogEntity extends AbstractPersistable<Long>{
 
     private String episodeId;
