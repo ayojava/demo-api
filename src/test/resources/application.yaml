@@ -1,0 +1,25 @@
+
+pring:
+  flyway:
+    baseline-on-migrate: true
+    locations: classpath:/test/db/migration
+  application:
+    name: demo-api
+  datasource:
+    url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
+    username: sa
+    password: sa
+    driverClassName: org.h2.Driver
+
+  jpa:
+    hibernate.ddl-auto: validate
+
+    properties:
+      hibernate.dialect: org.hibernate.dialect.H2Dialect
+      hibernate.format_sql: true
+      hibernate.show_sql : true
+      hibernate.jdbc.lob.non_contextual_creation: true
+      #hibernate.temp.use_jdbc_metadata_defaults: false
+    hibernate.naming:
+      implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+      physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
