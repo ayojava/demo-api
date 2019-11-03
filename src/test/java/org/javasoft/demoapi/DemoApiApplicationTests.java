@@ -29,7 +29,6 @@ class DemoApiApplicationTests {
         httpHeaders = new HttpHeaders();
     }
 
-
     private String createUrlWithPort(String uri) {
         return "http://localhost:" + port  + uri;
     }
