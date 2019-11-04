@@ -109,12 +109,12 @@
                         <id>default</id>
                         <goals>
                             <goal>build</goal>
-                            <goal>push</goal>
+                            <!--<goal>push</goal> -->
                         </goals>
                     </execution>
                 </executions>
                 <configuration>
-                    <repository>${docker.image.name}/${project.artifactId}</repository>
+                    <repository>${project.artifactId}</repository>
                     <buildArgs>
                         <JAR_FILE>work/${docker.image.name}.jar</JAR_FILE>
                     </buildArgs>
